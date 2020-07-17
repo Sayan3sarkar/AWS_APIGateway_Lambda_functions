@@ -33,6 +33,6 @@ def lambda_handler(event, context):
     #     "headers": {
     #         "Content-Type": "application/json"
     #     },
-    #     "body" : "Json response",
+    #     "body" : json.dumps("Json response"),
     #     "isBase64Encoded": False
     # }
