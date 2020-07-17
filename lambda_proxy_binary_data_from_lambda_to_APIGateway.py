@@ -25,3 +25,14 @@ def lambda_handler(event, context):
         "body" : base64.b64encode(file_content),
         "isBase64Encoded": True
     }
+    
+    # In case one wants to send json as response
+    
+    # return {
+    #     "statusCode": 200,
+    #     "headers": {
+    #         "Content-Type": "application/json"
+    #     },
+    #     "body" : "Json response",
+    #     "isBase64Encoded": False
+    # }
